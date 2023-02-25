@@ -1,5 +1,5 @@
 <script setup>
-import {ref} from "vue";
+import { ref } from "vue";
 import Form from "@/components/Form.vue";
 import Field from "@/components/Field.vue";
 import Input from "@/components/Input.vue";
@@ -51,7 +51,7 @@ function submit() {
       label="Password"
       required
       :error="errors.password"
-      help="Sould be at least 8 characters long."
+      help="Should be at least 8 characters long."
     >
       <Input
         v-model="form.password"
