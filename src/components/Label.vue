@@ -3,11 +3,11 @@
     class="mb-1 inline-block text-sm font-medium text-gray-700"
     :for="props.for"
   >
-    <slot /><span
+    <slot />
+    <span
       class="text-red-600"
       v-if="props.required"
-      >*</span
-    >
+    >*</span>
   </label>
 </template>
 
